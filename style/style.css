@@ -441,9 +441,9 @@ flex-direction: column;
 border-right: 1px solid var(--line);
 }
 
-.feature:first-child {
+/* .feature:first-child {
 padding-left: 0;
-}
+} */
 
 .number {
 color: var(--coral);
