@@ -267,7 +267,7 @@
 // }
 
 // =================
-import Navbar from "@/components/sora/Navbar";
+
 import Hero from "@/components/sora/Hero";
 import Marquee from "@/components/sora/Marquee";
 import HowItWorks from "@/components/sora/HowItWorks";
@@ -280,6 +280,8 @@ import FAQ from "@/components/sora/FAQ";
 import Newsletter from "@/components/sora/Newsletter";
 import CTA from "@/components/sora/CTA";
 import Footer from "@/components/sora/Footer";
+import Navbar from "@/components/sora/Navbar";
+
 
 export default function Home() {
   return (
