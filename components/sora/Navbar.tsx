@@ -1,4 +1,4 @@
-```tsx
+
 export default function Navbar() {
   return (
     <header className="site-header">
@@ -21,4 +21,4 @@ export default function Navbar() {
     </header>
   );
 }
-```
+
