@@ -102,19 +102,22 @@
 
 // =======
 
-import Hero from "@/components/sora/ Hero";
-import Marquee from "@/components/sora/Marquee";
+
 import Navbar from "@/components/sora/Navbar";
+
+import Marquee from "@/components/sora/Marquee";
 import HowItWorks from "@/components/sora/HowItWorks";
+
 import About from "@/components/sora/About";
 import Features from "@/components/sora/Features";
 import DailyPractice from "@/components/sora/DailyPractice";
 import Testimonials from "@/components/sora/Testimonials";
 import Journal from "@/components/sora/Journal";
 import FAQ from "@/components/sora/FAQ";
-
-
-
+import Newsletter from "@/components/sora/Newsletter";
+import CTA from "@/components/sora/CTA";
+import Footer from "@/components/sora/Footer";
+import Hero from "@/components/sora/ Hero";
 
 export default function Home() {
   return (
@@ -123,15 +126,32 @@ export default function Home() {
 
       <main>
         <Hero />
+
         <Marquee />
-             <HowItWorks />
-                <About />
-                <Features />
-                  <DailyPractice />
-                     <Testimonials />
-                     <Journal />
-                     <FAQ />
+
+        <HowItWorks />
+
+        {/* <Quote /> */}
+
+        <About />
+
+        <Features />
+
+        <DailyPractice />
+
+        <Testimonials />
+
+        <Journal />
+
+        <FAQ />
+
+        <Newsletter />
+
+        <CTA />
       </main>
+
+      <Footer />
     </>
   );
 }
+

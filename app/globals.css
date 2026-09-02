@@ -1445,7 +1445,7 @@ h2 {
    FOOTER
 ========================================================= */
 
-.footer {
+/* .footer {
   width: min(100% - 48px, var(--container));
 
   margin: 0 auto;
@@ -1482,7 +1482,169 @@ h2 {
 
 .footer-links a:hover {
   color: var(--ink);
+} */
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 90px var(--side-padding) 28px;
 }
+
+.footer-top {
+  max-width: var(--container);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-brand {
+  flex: 1;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: var(--cream);
+  font-size: 52px;
+  margin-bottom: 28px;
+}
+
+.footer-brand p {
+  margin: 0;
+  color: rgba(247, 243, 235, 0.62);
+  font-family: var(--serif);
+  font-size: 24px;
+  line-height: 1.35;
+}
+
+.footer-links {
+  display: flex;
+  gap: 90px;
+}
+
+.footer-column {
+  min-width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-label {
+  margin-bottom: 10px;
+  color: var(--lime);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer-column a {
+  color: rgba(247, 243, 235, 0.72);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+  color: var(--cream);
+}
+
+.footer-bottom {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding-top: 24px;
+  border-top: 1px solid rgba(247, 243, 235, 0.16);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  color: rgba(247, 243, 235, 0.45);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-bottom a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-bottom a:hover {
+  color: var(--cream);
+}
+
+.back-to-top {
+  color: var(--cream) !important;
+}
+
+
+/* =========================
+   FOOTER RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .site-footer {
+    padding: 70px 24px 24px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 55px;
+    padding-bottom: 55px;
+  }
+
+  .footer-links {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 25px;
+  }
+
+  .footer-logo {
+    font-size: 44px;
+  }
+
+  .footer-brand p {
+    font-size: 21px;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .footer-bottom-links {
+    order: 3;
+  }
+
+  .back-to-top {
+    order: 2;
+  }
+}
+
+
+
 
 /* =========================================================
    REVEAL
@@ -2038,7 +2200,7 @@ h2 {
   }
 
   /* FOOTER */
-
+/* 
   .footer {
     width: min(100% - 44px, var(--container));
 
@@ -2047,6 +2209,6 @@ h2 {
     flex-direction: column;
 
     padding: 25px 0 30px;
-  }
+  } */
 }
 
