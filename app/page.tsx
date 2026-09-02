@@ -106,6 +106,7 @@ import Hero from "@/components/sora/ Hero";
 import Marquee from "@/components/sora/Marquee";
 import Navbar from "@/components/sora/Navbar";
 import HowItWorks from "@/components/sora/HowItWorks";
+import About from "@/components/sora/About";
 
 
 
@@ -119,6 +120,7 @@ export default function Home() {
         <Hero />
         <Marquee />
              <HowItWorks />
+                <About />
       </main>
     </>
   );
