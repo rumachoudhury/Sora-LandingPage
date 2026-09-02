@@ -109,6 +109,7 @@ import HowItWorks from "@/components/sora/HowItWorks";
 import About from "@/components/sora/About";
 import Features from "@/components/sora/Features";
 import DailyPractice from "@/components/sora/DailyPractice";
+import Testimonials from "@/components/sora/Testimonials";
 
 
 
@@ -125,6 +126,7 @@ export default function Home() {
                 <About />
                 <Features />
                   <DailyPractice />
+                     <Testimonials />
       </main>
     </>
   );
