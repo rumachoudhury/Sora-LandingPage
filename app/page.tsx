@@ -108,6 +108,7 @@ import Navbar from "@/components/sora/Navbar";
 import HowItWorks from "@/components/sora/HowItWorks";
 import About from "@/components/sora/About";
 import Features from "@/components/sora/Features";
+import DailyPractice from "@/components/sora/DailyPractice";
 
 
 
@@ -123,6 +124,7 @@ export default function Home() {
              <HowItWorks />
                 <About />
                 <Features />
+                  <DailyPractice />
       </main>
     </>
   );
