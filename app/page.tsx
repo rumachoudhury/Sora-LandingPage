@@ -111,6 +111,7 @@ import Features from "@/components/sora/Features";
 import DailyPractice from "@/components/sora/DailyPractice";
 import Testimonials from "@/components/sora/Testimonials";
 import Journal from "@/components/sora/Journal";
+import FAQ from "@/components/sora/FAQ";
 
 
 
@@ -129,6 +130,7 @@ export default function Home() {
                   <DailyPractice />
                      <Testimonials />
                      <Journal />
+                     <FAQ />
       </main>
     </>
   );
