@@ -110,6 +110,7 @@ import About from "@/components/sora/About";
 import Features from "@/components/sora/Features";
 import DailyPractice from "@/components/sora/DailyPractice";
 import Testimonials from "@/components/sora/Testimonials";
+import Journal from "@/components/sora/Journal";
 
 
 
@@ -127,6 +128,7 @@ export default function Home() {
                 <Features />
                   <DailyPractice />
                      <Testimonials />
+                     <Journal />
       </main>
     </>
   );
