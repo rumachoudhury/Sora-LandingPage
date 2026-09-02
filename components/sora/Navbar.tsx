@@ -9,9 +9,8 @@ export default function Navbar() {
 
         <div className="nav-links">
           <a href="#how">How it works</a>
-          <a href="#features">Features</a>
+          <a href="#stories">Stories</a>
           <a href="#journal">Journal</a>
-          <a href="#faq">FAQ</a>
 
           <a className="button button-outline" href="#start">
             Get Started
@@ -21,4 +20,3 @@ export default function Navbar() {
     </header>
   );
 }
-
