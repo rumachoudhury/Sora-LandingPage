@@ -107,6 +107,7 @@ import Marquee from "@/components/sora/Marquee";
 import Navbar from "@/components/sora/Navbar";
 import HowItWorks from "@/components/sora/HowItWorks";
 import About from "@/components/sora/About";
+import Features from "@/components/sora/Features";
 
 
 
@@ -121,6 +122,7 @@ export default function Home() {
         <Marquee />
              <HowItWorks />
                 <About />
+                <Features />
       </main>
     </>
   );
