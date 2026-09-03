@@ -117,7 +117,10 @@ import FAQ from "@/components/sora/FAQ";
 import Newsletter from "@/components/sora/Newsletter";
 import CTA from "@/components/sora/CTA";
 import Footer from "@/components/sora/Footer";
-import Hero from "@/components/sora/ Hero";
+import Hero from "@/components/sora/Hero";
+import Quote from "@/components/sora/Quote"
+
+
 
 export default function Home() {
   return (
@@ -125,13 +128,13 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <Hero />
+        <Hero/>
 
         <Marquee />
 
         <HowItWorks />
 
-        {/* <Quote /> */}
+        <Quote/>
 
         <About />
 
