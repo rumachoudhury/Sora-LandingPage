@@ -3,8 +3,7 @@
 Sora (空) means “sky” in Japanese. The name represents openness, calm, and creating room to breathe — ideas that inspired this mindful productivity workspace.
 
 Sora is a calm, mindful productivity workspace designed to help people focus on what matters. It encourages intentional planning, creative thinking, and a more balanced way to organize daily work.
-
-This repository contains the **Sora landing page**, converted from a static HTML/CSS website into a modern **Next.js application**.
+This repository contains the Sora landing page, converted from a static HTML/CSS website into a modern Next.js application.
 
 ## Features
 
@@ -101,4 +100,4 @@ The original Sora landing page was built using:
 * CSS
 * JavaScript
 
-The project has now been converted into a reusable **Next.js + TypeScript** application while maintaining the original visual style and layout.
+The project has been rebuilt as a reusable Next.js + TypeScript + Tailwind CSS application while preserving the original visual style, layout, and overall design.
